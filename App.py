@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 import requests
 import gunicorn 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='template')
 
 # Replace with the IP address or URL of the target server
 TARGET_SERVER_IP = "http://example.com/endpoint"
