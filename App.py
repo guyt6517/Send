@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 import requests
-import guinicorn 
+import gunicorn 
 app = Flask(__name__)
 
 # Replace with the IP address or URL of the target server
